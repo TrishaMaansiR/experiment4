@@ -1,0 +1,14 @@
+1. Create a repository on GitHub
+2. Copy the repository URL
+3. Connect the local repository with the remote repository
+git init
+git remote add origin https://github.com/your-username/repository-name.git
+4. Verify the remote repository
+git remote -v
+5. Push the local repository to GitHub
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+6. Pull updates from the remote repository (if required)
+git pull origin main
